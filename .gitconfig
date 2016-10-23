@@ -14,11 +14,5 @@
   st            = status -sb
   standup       = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since yesterday
 
-[gitflow "prefix"]
-  feature       = feature/
-  release       = release/
-  hotfix        = hotfix/
-  support       = support/
-  versiontag    = v
 [push]
   default       = matching
