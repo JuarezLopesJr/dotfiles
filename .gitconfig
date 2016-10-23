@@ -1,0 +1,24 @@
+[user]
+  name          = Juarez Lopes
+  email         = jlopesinformatica@gmail.com
+
+[core]
+  editor        = vim
+  fileMode      = false
+
+[color]
+  ui            = true
+
+[alias]
+  lg            = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  st            = status -sb
+  standup       = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --since yesterday
+
+[gitflow "prefix"]
+  feature       = feature/
+  release       = release/
+  hotfix        = hotfix/
+  support       = support/
+  versiontag    = v
+[push]
+  default       = matching
